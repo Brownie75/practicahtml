@@ -23,7 +23,9 @@
     background-color:rgb(240, 200, 215);
     border-radius: 25px;
     padding: 15px;
-    border-color: brown;
+    border-color: rgb(107, 25, 59);
+    border-width: 3px;
+    border-style: solid;
 }
 
 p, li{
