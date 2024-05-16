@@ -9,12 +9,10 @@
     border-radius: 25px;
     margin: 15px;
     padding: 15px;
-    border-color: rgb(107, 25, 59);
-    border-width: 5px;
-    border-style: solid;
+    border: rgb(107, 25, 59) 5px solid;
 }
 
-.line{
+div hr{
     border-color: black;
 }
 .card{
@@ -23,9 +21,7 @@
     background-color:rgb(240, 200, 215);
     border-radius: 25px;
     padding: 15px;
-    border-color: rgb(107, 25, 59);
-    border-width: 3px;
-    border-style: solid;
+    border: rgb(107, 25, 59) 5px solid;
 }
 
 p, li{
