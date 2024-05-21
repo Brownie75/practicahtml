@@ -15,16 +15,14 @@ p, li{
 
 }
 h1,h2,h3{
+    text-align: center;
     font-family: Virgil;
     font-weight: bold;
     color: antiquewhite;
 }
 .container{
-    width: 100%;
-    height: 100%;
     background-color: crimson;
     border-radius: 25px;
-    margin: 15px;
     padding: 15px;
     border: rgb(107, 25, 59) 5px solid;
 }
