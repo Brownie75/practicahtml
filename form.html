@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formstyles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>ENCUESTA: TUS VIDEOJUEGOS</h1>
+
+        <form class="form-container">
+            <div class="favorite-videogame">
+                <legend style="margin-right: 15px; font-weight: bold;">¿Cual es tu videojuego favorito?</legend>
+                <input type="text" placeholder="Ejemplo: maincraa">
+            </div>
+            <fieldset class="favorite-console">
+                <legend>¿Cual es tu consola favorita?</legend>
+                <div class="console-option">
+                    <label for="sw">Switch</label>
+                    <input type="radio" name="console" id="sw" value="Switch">
+                </div>
+                <div class="console-option">
+                    <label for="ps">PS5</label>
+                    <input type="radio" name="console" id="ps" value="PS5">
+                </div>
+                <div class="console-option">
+                    <label for="xb">XBOX</label>
+                    <input type="radio" name="console" id="xb" value="XBOX">
+                </div>
+                <div class="console-option">
+                    <label for="pc">PC</label>
+                    <input type="radio" name="console" id="pc" value="PC">
+                </div>
+                <div class="console-option">
+                    <label for="an">Otra</label>
+                    <input type="radio" name="console" id="an" value="Another">
+                </div>
+                
+            </fieldset>
+            <fieldset class="played-consoles">
+                <legend>¿En cuales has jugado?</legend>
+                <div class="played-con">
+                    <label for="p_sw">Switch</label>
+                    <input type="checkbox" name="played_console" id="p_sw" value="Switch">
+                </div>
+                <div class="played-con">
+                    <label for="p_ps">PS5</label>
+                    <input type="checkbox" name="played_console" id="p_ps" value="PS5">
+                </div>
+                <div class="played-con">
+                    <label for="p_xb">XBOX</label>
+                    <input type="checkbox" name="played_console" id="p_xb" value="XBOX">
+                </div>
+                <div class="played-con">
+                    <label for="p_pc">PC</label>
+                    <input type="checkbox" name="played_console" id="p_pc" value="PC">
+                </div>
+                <div class="played-con">
+                    <label for="p_an">Otra</label>
+                    <input type="checkbox" name="played_console" id="p_an" value="Another">
+                </div>
+            </fieldset>
+            <div class="date-played">
+                <legend style="margin-right: 15px; font-weight: bold;">¿Cuando fue la ultima vez que jugaste?</legend>
+                <input type="date">
+            </div>
+            <div style="display: flex; justify-content: space-around; align-items: center;">
+                <div class="go-back">
+                    <a href="index.html"><-</a>
+                </div>
+                <input type="submit" value="ENVIAR">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

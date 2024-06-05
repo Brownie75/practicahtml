@@ -110,3 +110,20 @@ table, th, tr, td{
     border-collapse: collapse;
     padding: 10px;
 }
+
+.form_link{
+    background-color: maroon;
+    width: 200px;
+    height: 70px;
+    color: white;
+    border-radius: 25px;
+    border: 3px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.form_link a{
+    color: white;
+    margin: auto;
+    text-align: center;
+}
